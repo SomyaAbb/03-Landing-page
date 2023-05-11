@@ -1,0 +1,84 @@
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+i {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 150px;
+  font-size: 35px;
+  color: #e7e0db;
+  margin: 30px;
+}
+.card p {
+  color: #808080;
+}
+.card h4{
+  color: #1b2c13;
+}
+h2 {
+  color: #1b2c13;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+div {
+  display: block;
+}
+
+
+
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #e7e0db;
+}
+.footer a {
+  font-size: 30px;
+  width: 20px;
+}
+
+.footer i {
+  color: #f9f1ea;
+  font-size: 40px;
+
+}
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+.links {
+  color: #ffffff;
+}
+.footer i:hover{
+  color: #ccb9e8;
+}
+
+.footer p {
+  color: #f9f1ea;
+}
